@@ -1,0 +1,65 @@
+*{
+   font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+   /* background-color: red; */
+
+
+}
+body{
+    padding: 80px 0px;
+}
+.outer-box{
+    margin: auto;
+    width: 30%;
+border: 1px solid #93959E;
+
+}
+.outer-box .content{
+padding: 20px 30px;
+}
+.outer-box h1{
+        font-size: 20px
+}
+.outer-box img{
+    width: 100%;
+    height: auto;
+}
+.outer-box .first-input input{
+    border: none;
+    border: 1px solid #d4d5d9;
+    padding: 10px 12px;
+    width: 100%;
+}
+input::placeholder{
+        font-family: sans-serif;
+}
+.outer-box .check input{
+    margin-right: 10px;
+}
+.outer-box .check h3{
+    font-weight: 600;
+     font-family: 'Times New Roman', Times, serif;
+     color: rgba(40, 44, 63, .8);;
+} 
+.outer-box .check h3 a{
+    color: #ff3c6f;
+}
+.outer-box button{
+    width: 100%;
+    background-color: #93959E;
+    border: none;
+    padding: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.outer-box .new a{
+    color: #ff3c6f;
+    font-weight: 600;
+
+}
+.outer-box .new h3{
+    font-weight: 600;
+    font-size: small;
+    padding-left: 35px;
+}
